@@ -1,0 +1,66 @@
+.sign-up {
+    padding: 140px 0;
+    background: url(../media/bg-contact.png) 50% 0% / cover no-repeat;
+}
+.sign-up__block {
+    display: flex;
+    gap: 50px;
+    align-items: end;
+}
+.sign-up__text {
+    font-family: Gabriola;
+    font-size: 74px;
+    line-height: 80%;
+    margin-bottom: 20px;
+}
+.sign-up__data {
+    font-family: Montserrat;
+    margin-bottom: 40px;
+}
+.input-object {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    padding: 19px 28px;
+    border-radius: 100px;
+    border: 1px solid #AC907A;
+    background-color: transparent;
+    width: 100%;
+}
+.input-name {
+    margin-bottom: 10px;
+}
+.input-number {
+    margin-bottom: 20px;
+}
+.berry-left, .berry-right {
+    position: absolute;
+    top: 0;
+}
+.berry-right {
+    right: 0;
+    top: -80px;
+}
+@media (max-width: 1140px) {
+    .sign-up__block {
+        gap: 0;
+    }
+}
+@media (max-width: 1070px) {
+    .sign-img {
+        display: none;
+    }
+    .sign-up__block {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 680px) {
+    .berry-left {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .sign-up__block {}
+}
